@@ -2,8 +2,8 @@
 
 :root {
   --purple: #6070ff;
-  --nile-blue: #172B4D;
-  --greyish-blue: #505F79;
+  --nile-blue: #172b4d;
+  --greyish-blue: #505f79;
 }
 
 body {
@@ -67,8 +67,11 @@ header {
   margin-right: 20px;
 }
 
-.fa-twitter, .fa-linkedin-in, .fa-medium-m,
-.fa-github-square, .fa-angellist {
+.fa-twitter,
+.fa-linkedin-in,
+.fa-medium-m,
+.fa-github-square,
+.fa-angellist {
   color: var(--greyish-blue);
   font-size: 30px;
 }
