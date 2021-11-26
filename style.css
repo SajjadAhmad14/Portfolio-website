@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --purple: #6070ff;
+  --nile-blue: #172b4d;
+  --greyish-blue: #505f79;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+
+.logo {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--purple);
+}
+
+.fa-bars {
+  color: var(--purple);
+  font-size: 22px;
+}
+
+.headline {
+  background-image: url("header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 50px;
+  margin: 0 20px 0 20px;
+  padding-top: 155px;
+  padding-bottom: 130px;
+}
+
+.headline h1 {
+  font-size: 40px;
+  line-height: 52px;
+  color: var(--nile-blue);
+  font-weight: bolder;
+}
+
+.connect-btn {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  padding: 0;
+}
+
+.social-icons li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.fa-twitter,
+.fa-linkedin-in,
+.fa-medium-m,
+.fa-github-square,
+.fa-angellist {
+  color: var(--greyish-blue);
+  font-size: 30px;
+}
